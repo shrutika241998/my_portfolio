@@ -1,0 +1,57 @@
+.ProjectPage{
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  max-width: 80%;
+}
+
+.ProjectName{
+    list-style-type: none;
+    text-decoration: none;
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px 5px 5px 5px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.ProjectName p{
+    padding-top: 10px;
+    
+}
+a:any-link,a{
+ text-decoration: none;
+}
+.nameValue{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color : white;
+}
+.desc{
+    color: lightslategrey;
+}
+.ProjectList{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 5px;
+ padding-inline-start: 0%;
+  margin:100px auto;
+  width: 100%;
+  justify-content: center;
+  padding: 25px 0px;
+}
+.ProjectName:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+

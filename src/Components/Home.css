@@ -1,0 +1,39 @@
+.intro{
+  display: flex;
+  text-align: center;
+  max-width: 800px;
+  margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+.introText{
+  text-align: left;
+  font-size: large;
+}
+.Logo{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* .welcomeHeader{
+ 
+} */
+.subtext{
+  font-size: 24px;
+  
+}
+
+
+
+
