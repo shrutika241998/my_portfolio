@@ -50,8 +50,8 @@ export default function Project(){
             <p className='desc'>{val.description}</p>
             
             <div className='techStack'>
-            <img src='/javascriptLogo.png' width="30" height="30"/>
-            <img src='/logo192.png' width="30" height="30" />
+            <img src='/javascriptLogo.png' width="30" height="30" alt="JS" />
+            <img src='/logo192.png' width="30" height="30" alt="192"/>
             </div>
             
             </li>
