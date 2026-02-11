@@ -14,13 +14,13 @@ function Home() {
           When I’m not at my computer I like to spend my time painting, keeping fit and going for a swim.</p>
     </div>
     <div className='Logo'>
-      <div className='skill-item'><img src='/javascriptLogo.png' width="100" height="100"/></div>
-      <div className='skill-item'><img src='/htmlLogo.png' width="100" height="100" /></div>
-      <div className='skill-item'><img src='/cssLogo.png' width="100" height="100" /></div>
-      <div className='skill-item'><img src='/logo192.png' width="100" height="100" /></div>
-      <div className='skill-item'><img src='/sqlIogo.png' width="100" height="100" /></div>
-      <div className='skill-item'><img src='/typescript-logo-blue-square-modern-design-icon.png' width="100" height="100" /></div>
-      <div className='skill-item'><img src='/java.png' width="100" height="100" /></div>
+      <div className='skill-item'><img src='/javascriptLogo.png' width="100" height="100" alt="JS" /></div>
+      <div className='skill-item'><img src='/htmlLogo.png' width="100" height="100" alt="html"/></div>
+      <div className='skill-item'><img src='/cssLogo.png' width="100" height="100" alt="css" /></div>
+      <div className='skill-item'><img src='/logo192.png' width="100" height="100" alt="192" /></div>
+      <div className='skill-item'><img src='/sqlIogo.png' width="100" height="100" alt="SQl" /></div>
+      <div className='skill-item'><img src='/typescript-logo-blue-square-modern-design-icon.png' width="100" height="100" alt="Typescript" /></div>
+      <div className='skill-item'><img src='/java.png' width="100" height="100" alt="Java"/></div>
     </div>
   </section>
   </>
