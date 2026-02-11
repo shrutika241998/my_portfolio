@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {Projects} from './Components/Projects.js';
+
 import Project from './Components/ListOfProject.js'
 import About from './Components/About.js'
 import Home from './Components/Home.js'
-import { Suspense,lazy } from 'react';
+
 import {Route,Routes, Link} from 'react-router-dom'; 
 
 

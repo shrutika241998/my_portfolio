@@ -1,7 +1,4 @@
 import './Home.css';
-import {Project} from './ListOfProject.js'
-import {About} from './About.js'
-import {BrowserRouter,Route,Routes,Links, Link} from 'react-router-dom';
 
 function Home() {
  
