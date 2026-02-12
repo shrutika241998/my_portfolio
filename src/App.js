@@ -38,6 +38,7 @@ function App() {
         <div><a href='https://github.com/shrutika241998'><img src='/icons8-github-24.png' width="50" height="50" className='footer_github' alt="github-image" /></a></div>
         <div><a href='https://www.linkedin.com/in/shrutikasarvade24/'><img src='/icons8-linked-in-50.png' width="50" height="50" className='footer_linkedin' alt="linkedin-image" /></a></div>
         <div><a href="/Resume_Shrutika_3Yrs_exp.pdf" download><img src='/icons8-resume-48.png' width="50" height="50" className='footer_resume' alt="resume" /></a></div>
+        
         </div>
       </footer>
     </div>
