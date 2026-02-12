@@ -46,13 +46,13 @@ export default function Project(){
     {
         projectList.map((val)=>{
             return <li className="ProjectName">
-            <a href={val.link} className="nameValue">{val.name}</a>
+            <a href={val.link} className="nameValue">{val.name}
             <p className='desc'>{val.description}</p>
             
             <div className='techStack'>
             <img src='/javascriptLogo.png' width="30" height="30" alt="JS" />
             <img src='/logo192.png' width="30" height="30" alt="192"/>
-            </div>
+            </div></a>
             
             </li>
         })
