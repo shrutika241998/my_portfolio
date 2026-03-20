@@ -4,7 +4,6 @@ import "./ReactBit/Orb.css"
 import Project from "./Components/ListOfProject.jsx";
 import About from "./Components/About.jsx";
 import Home from "./Components/Home.jsx";
-import { Suspense, lazy } from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import Orb from "./ReactBit/Orb.js";
 
