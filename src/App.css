@@ -1,11 +1,25 @@
+.app{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.content{
+ position: absolute;
+ width: 80%;
+}
 
+a{
+  color:rgb(238, 234, 10);
+}
 
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 50%, #16213e 100%);
+  background: black;
   background-attachment: fixed;
   color: #fff;
   min-height: 100vh;
+  padding-bottom: 150px;
 }
 .navBar ,.bottomNavBar{
   display :flex;
@@ -18,15 +32,19 @@ body{
 }
 .App-header{
   position: fixed;
-  top : 0;
+  top:0px;
+  left:0px;
   width : 100%;
   text-align: center;
-  background: linear-gradient(90deg, #0f7d8f 0%, #16213e 100%);
+  margin: 0 auto;
+  background: transparent;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+
 }
 .App-footer{
   position: fixed;
@@ -34,7 +52,7 @@ body{
   bottom: 0;
   width: 100%;
   text-align: center;
-  background: linear-gradient(90deg, #16213e 0%, #0f7d8f 100%);
+  background: transparent;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-top-left-radius: 10px;
@@ -43,11 +61,13 @@ body{
 }
 .onfocus {
     font-size: 16px;
+    font-weight: bolder;
     transition: font-size 0.3s ease;
+    
 }
 .projectLink,.aboutLink,.homeLink{
   text-decoration: none;
- color: white;
+
 }
 .onfocus:hover {
     font-size: 24px;

@@ -1,8 +1,6 @@
 import './Home.css';
 
 function Home() {
- 
-
   return <>
   <section className='intro'>
     <div className='introText'>
@@ -23,6 +21,7 @@ function Home() {
       <div className='skill-item'><img src='/java.png' width="100" height="100" alt="Java"/></div>
     </div>
   </section>
+ 
   </>
 }
 
