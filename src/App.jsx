@@ -1,5 +1,4 @@
 import "./App.css";
-import logo from "./logo.svg";
 import "./App.css";
 import "./ReactBit/Orb.css"
 import Project from "./Components/ListOfProject.jsx";

@@ -1,15 +1,15 @@
-.ProjectPage{
+.ProjectPage {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  z-index: 0;
-  position: relative;
- margin-top: 180px;
-  
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    z-index: 0;
+    position: relative;
+    margin-top: 180px;
+
 }
 
-.ProjectName{
+.ProjectName {
     list-style-type: none;
     text-decoration: none;
     width: 300px;
@@ -23,43 +23,51 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
 }
-.ProjectName p{
-    padding-top: 10px; 
+
+.ProjectName p {
+    padding-top: 10px;
 }
-a:any-link,a{
- text-decoration: none;
+
+a:any-link,
+a {
+    text-decoration: none;
 }
-.nameValue{
+
+.nameValue {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
     font-weight: 600;
-    color : white;
-}
-.desc{
-    color: fdf0d5;
-}
-.ProjectList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;              /* 🔥 increase spacing */
-  margin: 100px auto 100px auto;
-  width: 100%;
-  padding: 25px 0;
-  padding-inline-start: 0;
+    color: white;
 }
 
-.ProjectName:hover{
+.desc {
+    color: fdf0d5;
+}
+
+.ProjectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* 🔥 increase spacing */
+    margin: 100px auto 100px auto;
+    width: 100%;
+    padding: 25px 0;
+    padding-inline-start: 0;
+}
+
+.ProjectName:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
 }
-.projectLink {
-  display: block;   /* 🔥 makes entire area clickable */
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: inherit;
-}
 
+.projectLink {
+    display: block;
+    /* 🔥 makes entire area clickable */
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
